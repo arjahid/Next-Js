@@ -2,6 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <h2>hello form nextJs</h2>
+   <div
+  className="hero min-h-screen"
+  style={{
+    backgroundImage:
+      "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+  }}
+>
+  <div className="hero-overlay"></div>
+  
+</div>
   );
 }

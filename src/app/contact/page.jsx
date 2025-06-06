@@ -18,7 +18,7 @@ export default function page() {
     }
   return (
 
-    <div>contact page
+    <div> 
         <ul>
             <Link href='/contact/more'>more</Link>
            <button type='button' onClick={handleClick}> </button>
